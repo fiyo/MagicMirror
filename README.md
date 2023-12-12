@@ -22,6 +22,26 @@ MagicMirror²专注于模块化插件系统，并使用 [Electron](https://www.e
 
 有关包括 **[安装说明](https://docs.magicmirror.builders/getting-started/installation.html)** 在内的完整文档，请访问我们的专用文档网站：[https://docs.magicmirror.builders](https://docs.magicmirror.builders)
 
+## 说明
+
+默认天气预报城市：济南（Jinan）
+
+您可以根据自己的需求进入更改。修改位置位于 **config/config.js** 文件的以下位置：
+
+```json
+{
+			module: "weather",
+			position: "top_right",
+			config: {
+				weatherProvider: "openweathermap",
+				type: "current",
+				location: "Jinan", //location 字段为天气预报的城市名称，参数 config/city.list.json 文件中的 name 字段进行设置
+				locationID: "1805753", //location 和 locationID 字段的值可以参照 config/city.list.json 文件中的ID进行设置。
+				apiKey: "30dffd20b922d4fdc1a9582c4191b4cb"
+			}
+		},
+```
+
 ## 链接
 
 - 网站: [https://magicmirror.builders](https://magicmirror.builders)
