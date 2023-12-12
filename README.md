@@ -28,7 +28,7 @@ MagicMirror²专注于模块化插件系统，并使用 [Electron](https://www.e
 
 您可以根据自己的需求进入更改。修改位置位于 **config/config.js** 文件的以下位置：
 
-```json
+```
 {
   module: "weather",
   position: "top_right",
