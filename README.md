@@ -30,16 +30,16 @@ MagicMirror²专注于模块化插件系统，并使用 [Electron](https://www.e
 
 ```json
 {
-			module: "weather",
-			position: "top_right",
-			config: {
-				weatherProvider: "openweathermap",
-				type: "current",
-				location: "Jinan", //location 字段为天气预报的城市名称，参数 config/city.list.json 文件中的 name 字段进行设置
-				locationID: "1805753", //location 和 locationID 字段的值可以参照 config/city.list.json 文件中的ID进行设置。
-				apiKey: "30dffd20b922d4fdc1a9582c4191b4cb"
-			}
-		},
+  module: "weather",
+  position: "top_right",
+  config: {
+    weatherProvider: "openweathermap",
+    type: "current",
+    location: "Jinan", //location 字段为天气预报的城市名称，参数 config/city.list.json 文件中的 name 字段进行设置
+    locationID: "1805753", //location 和 locationID 字段的值可以参照 config/city.list.json 文件中的ID进行设置。
+    apiKey: "30dffd20b922d4fdc1a9582c4191b4cb"
+  }
+},
 ```
 
 - 加入 36氪 rss源：https://36kr.com/feed
